@@ -21,10 +21,10 @@ function App() {
 
 
   let [sArr, setsArr] = useState([{id:0, name:'John', age:'24', course:'MERN', batch:'October'},
-  {id:1, name:'Doe', age:'25', course:'MERN', batch:'November'},
-  {id:2, name:'Zelensky', age:'41', course:'MERN', batch:'December'},
-  {id:3, name:'Putin', age:'58', course:'MERN', batch:'May'},
-  {id:4, name:'Biden', age:'69', course:'MERN', batch:'April'}]);
+  {id:1, name:'Ria', age:'25', course:'JAVA', batch:'November'},
+  {id:2, name:'Dia', age:'21', course:'J2EE', batch:'December'},
+  {id:3, name:'Tia', age:'23', course:'PYTHON', batch:'May'},
+  {id:4, name:'Sia', age:'21', course:'C++', batch:'April'}]);
 
   const handleUpdateName = (e,i) =>{
     setName(e.target.value);

@@ -2,7 +2,7 @@
 .App {
   height: 100vh;
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(70, 240, 27);
 }
 
 .navbar{
@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: orange;
+  background-color: rgb(236, 34, 102);
   list-style: none;
 }
 .text-normal{
@@ -20,7 +20,7 @@
   text-decoration: none;
 }
 .text-normal:hover{
-  color: teal;
+  color: rgb(240, 88, 134);
 }
 .student-heading{
   display: flex;
